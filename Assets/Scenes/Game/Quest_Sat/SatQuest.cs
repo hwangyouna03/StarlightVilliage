@@ -76,7 +76,7 @@ public class SatQuest : MonoBehaviour
     }
     public void sp5()
     {
-        //SceneManager.LoadScene(""); 이전 위치로 이동
+        SceneManager.LoadScene("ServeQuest");
     }
 
     //신사리떡볶이
@@ -106,7 +106,7 @@ public class SatQuest : MonoBehaviour
     }
     public void ri7()
     {
-        //SceneManager.LoadScene(""); 이전 위치로 이동
+        SceneManager.LoadScene("ServeQuest");
     }
     //틈새라면
     public void ra1()
@@ -135,8 +135,13 @@ public class SatQuest : MonoBehaviour
     }
     public void ra7()
     {
-        //SceneManager.LoadScene(""); 이전 위치로 이동
+        SceneManager.LoadScene("ServeQuest"); 
     }
+    public void ServeQuest()
+    {
+        //SceneManager.LoadScene("");이전 위치로 이동
+    }
+
     //카페베네
     public void c1()
     {

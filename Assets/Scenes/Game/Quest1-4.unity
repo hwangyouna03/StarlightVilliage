@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 751905008}
   - component: {fileID: 751905007}
   - component: {fileID: 751905010}
+  - component: {fileID: 751905011}
   m_Layer: 5
   m_Name: next
   m_TagString: Untagged
@@ -388,8 +389,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 688.9, y: -367.7}
-  m_SizeDelta: {x: 61.017136, y: 40.07396}
+  m_AnchoredPosition: {x: 709.3, y: -390.6}
+  m_SizeDelta: {x: 101.7238, y: 85.88718}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751905007
 MonoBehaviour:
@@ -446,6 +447,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 751905011}
+        m_TargetAssemblyTypeName: StartMusic, Assembly-CSharp
+        m_MethodName: BackGroundMusicOffButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &751905008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,7 +479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cdb9947f9cfed24a92348dc4be16603, type: 3}
+  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -494,6 +507,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fab86deb1a06c24680c744e92b9e470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &751905011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751905005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcfb2f255e69f74cb69ecad10caee52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &753421478
@@ -688,7 +713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136.23, y: -308.59}
+  m_AnchoredPosition: {x: 105.39, y: -308.59}
   m_SizeDelta: {x: 1106.0114, y: 78.13919}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910883513

@@ -59,7 +59,7 @@ public class Game : MonoBehaviour
     //1단계로 돌아가기
     public void Back2()
     {
-        SceneManager.LoadScene("1Game");
+        SceneManager.LoadScene("1-1Game");
     }
     //2단계로 돌아가기
     public void Back3()
